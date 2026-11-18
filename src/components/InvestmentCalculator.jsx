@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { calculateInvestmentResults } from '../util/investments';
-import { generatepdf } from '../util/generateReport';
+import { generatepdf } from '../util/generatereport';
 
 const InvestmentCalculator = ({calculateInvestmentResults,generatepdf }) => {
   const [inputCustomer, setInputCustomer] = useState({
