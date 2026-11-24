@@ -16,7 +16,7 @@ A preview of what this project looks like when deployed can be viewed on Vercel 
 - HTML5
 
 ## Project Structure
-Investment-Calculator-Application-React/
+Investment-Calculator-Application-React/<br>
 └─public/<br>
 &emsp;&emsp;└─ vite.svg<br>
 └─src/<br>
