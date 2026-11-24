@@ -24,15 +24,15 @@ Investment-Calculator-Application-React/
 ├    └─ assets/
 ├        └─ logo.jpg
 ├    └─ components/                    # React components for the structure of the page and operating the calculator.
-├        ├─ Header.jsx
-├        ├─ HeaderTitle.jsx
-├        ├─ InvestmentCalculator.jsx
-├        ├─ Output.css
-├        ├─ Output.jsx
-├        └─ UserInput.jsx
+├        ├─ Header.jsx                   # Page header containing branding.
+├        ├─ HeaderTitle.jsx              # Page header containing page title and subtitle.
+├        ├─ InvestmentCalculator.jsx     # Component for operating the calculator minus the mathematical functions.
+├        ├─ Output.css                   # Styling for the output table.
+├        ├─ Output.jsx                   # Script that allows the output table to adjust to user inputs.
+├        └─ UserInput.jsx                # Component that operates the user input form.
 ├    └─ util/                          # React components for the mathematical calculations and generating the report.
-├        ├─ generatereport.jsx
-├        └─ investments.jsx
+├        ├─ generatereport.jsx           # Generates the report after the user requests one.
+├        └─ investments.jsx              # Does the mathematical calculations for the investment report.
 ├    ├─ App.css
 ├    ├─ App.jsx
 ├    ├─ index.css
