@@ -16,29 +16,31 @@ A preview of what this project looks like when deployed can be viewed on Vercel 
 - HTML5
 
 ## Project Structure
+```
 Investment-Calculator-Application-React/<br>
 └─public/<br>
-&emsp;&emsp;└─ vite.svg<br>
+├    └─ vite.svg<br>
 └─src/<br>
-&emsp;&emsp;└─ assets/<br>
-&emsp;&emsp;&emsp;&emsp;└─ logo.jpg<br>
-&emsp;&emsp;└─ components/<br>
-&emsp;&emsp;&emsp;&emsp;├─ Header.jsx<br>
-&emsp;&emsp;&emsp;&emsp;├─ HeaderTitle.jsx<br>
-&emsp;&emsp;&emsp;&emsp;├─ InvestmentCalculator.jsx<br>
-&emsp;&emsp;&emsp;&emsp;├─ Output.css<br>
-&emsp;&emsp;&emsp;&emsp;├─ Output.jsx<br>
-&emsp;&emsp;&emsp;&emsp;└─ UserInput.jsx<br>
-&emsp;&emsp;└─ util/<br>
-&emsp;&emsp;&emsp;&emsp;├─ generatereport.jsx<br>
-&emsp;&emsp;&emsp;&emsp;└─ investments.jsx<br>
-&emsp;&emsp;├─ App.css<br>
-&emsp;&emsp;├─ App.jsx<br>
-&emsp;&emsp;├─ index.css<br>
-&emsp;&emsp;└─ main.jsx<br>
+├    └─ assets/<br>
+├        └─ logo.jpg<br>
+├    └─ components/<br>                    # React components for the structure of the page and operating the calculator.
+├        ├─ Header.jsx<br>
+├        ├─ HeaderTitle.jsx<br>
+├        ├─ InvestmentCalculator.jsx<br>
+├        ├─ Output.css<br>
+├        ├─ Output.jsx<br>
+├        └─ UserInput.jsx<br>
+├    └─ util/<br>                          # React components for the mathematical calculations and generating the report.
+├        ├─ generatereport.jsx<br>
+├        └─ investments.jsx<br>
+├    ├─ App.css<br>
+├    ├─ App.jsx<br>
+├    ├─ index.css<br>
+├    └─ main.jsx<br>
 ├─ README.md<br>
 ├─ eslint.config.js<br>
 ├─ index.html<br>
 ├─ package-lock.json<br>
 ├─ package.json<br>
 └─ vite.config.js<br>
+```
