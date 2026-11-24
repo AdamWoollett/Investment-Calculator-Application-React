@@ -17,30 +17,30 @@ A preview of what this project looks like when deployed can be viewed on Vercel 
 
 ## Project Structure
 ```
-Investment-Calculator-Application-React/<br>
-└─public/<br>
-├    └─ vite.svg<br>
-└─src/<br>
-├    └─ assets/<br>
-├        └─ logo.jpg<br>
-├    └─ components/<br>                    # React components for the structure of the page and operating the calculator.
-├        ├─ Header.jsx<br>
-├        ├─ HeaderTitle.jsx<br>
-├        ├─ InvestmentCalculator.jsx<br>
-├        ├─ Output.css<br>
-├        ├─ Output.jsx<br>
-├        └─ UserInput.jsx<br>
-├    └─ util/<br>                          # React components for the mathematical calculations and generating the report.
-├        ├─ generatereport.jsx<br>
-├        └─ investments.jsx<br>
-├    ├─ App.css<br>
-├    ├─ App.jsx<br>
-├    ├─ index.css<br>
-├    └─ main.jsx<br>
-├─ README.md<br>
-├─ eslint.config.js<br>
-├─ index.html<br>
-├─ package-lock.json<br>
-├─ package.json<br>
-└─ vite.config.js<br>
+Investment-Calculator-Application-React/
+└─public/
+├    └─ vite.svg
+└─src/
+├    └─ assets/
+├        └─ logo.jpg
+├    └─ components/                    # React components for the structure of the page and operating the calculator.
+├        ├─ Header.jsx
+├        ├─ HeaderTitle.jsx
+├        ├─ InvestmentCalculator.jsx
+├        ├─ Output.css
+├        ├─ Output.jsx
+├        └─ UserInput.jsx
+├    └─ util/                          # React components for the mathematical calculations and generating the report.
+├        ├─ generatereport.jsx
+├        └─ investments.jsx
+├    ├─ App.css
+├    ├─ App.jsx
+├    ├─ index.css
+├    └─ main.jsx
+├─ README.md
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+└─ vite.config.js
 ```
